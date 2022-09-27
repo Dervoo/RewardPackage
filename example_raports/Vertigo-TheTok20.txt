@@ -1,0 +1,50 @@
+[*] Done with campaign run
+[+] Report:
+Mutation testing report:
+Number of mutations:    11
+Killed:                 6 / 11
+
+Mutations:
+
+[+] Survivors
+Mutation:
+    File: /home/bartosz/Hardhat-Environment-Ready-3/contracts/TheTok20.sol
+    Line nr: 10
+    Result: Lived
+    Original line:
+                 _mint(msg.sender, 10000 * 10**decimals());
+
+    Mutated line:
+                 _mint(msg.sender, 10000 / 10**decimals());
+
+Mutation:
+    File: /home/bartosz/Hardhat-Environment-Ready-3/contracts/TheTok20.sol
+    Line nr: 10
+    Result: Lived
+    Original line:
+                 _mint(msg.sender, 10000 * 10**decimals());
+
+    Mutated line:
+                 
+
+Mutation:
+    File: /home/bartosz/Hardhat-Environment-Ready-3/contracts/TheTok20.sol
+    Line nr: 16
+    Result: Lived
+    Original line:
+             function pause() public onlyOwner {
+
+    Mutated line:
+             function pause() public  {
+
+Mutation:
+    File: /home/bartosz/Hardhat-Environment-Ready-3/contracts/TheTok20.sol
+    Line nr: 20
+    Result: Lived
+    Original line:
+             function unpause() public onlyOwner {
+
+    Mutated line:
+             function unpause() public  {
+
+[*] Done! 

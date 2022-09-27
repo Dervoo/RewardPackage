@@ -49,3 +49,27 @@ Solhint: (you can set parameters in solhint.json and control the contract's form
 
 -> npx solhint 'contracts/**/*.sol' -> checks all files <br />
 -> npx solhint contracts/File_Name.sol -> checks specific file <br />
+
+Manticore: (it takes a lot of time to produce the report) <br />
+
+-> pip install manticore <br />
+-> manticore . --contract <contract_name> <br />
+
+``` 
+https://github.com/trailofbits/manticore/issues/1382
+https://github.com/trailofbits/manticore/issues/705
+https://github.com/trailofbits/manticore/pull/712
+```
+
+Vertigo: (few minutes) <br />
+
+-> pip3 install --user eth-vertigo <br />
+-> vertigo run --hardhat-parallel <number_of_networks_to_check> <br />
+!!! IMPORTANT !!! -> before running vertigo comment nearly all of the requires in hardhat config instead of hardhat waffle and hardhat ethers !!! <br />
+
+Octopus: <br />
+
+-> pip3 install octopus <br />
+-> WIP <br />
+
+Example raports you can find in example_raports file <br />
