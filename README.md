@@ -30,6 +30,6 @@ Solidity Coverage: <br />
 Mythril:
 
 -> pip3 install mythril <br />
--> myth analyze <solidity-file> (by default Mythril analyses for 24 hours, to make it faster add <br />--execution-timeout <seconds>)
+-> myth analyze <solidity-file> (by default Mythril analyses for 24 hours, to make it faster add --execution-timeout <seconds>) <br />
 -> if you are trying to use @openzepplin library you have to create file.json with the path, the example of that is remapping.json in home directory path and then you have to run command < myth analyze contracts/<contract_name>.sol --solc-json remapping.json --execution-timeout <seconds> > <br />
 -> In the end it prints issues, if not then "No issues were detected." <br />
