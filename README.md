@@ -76,5 +76,3 @@ Octopus: <br />
 -> WIP <br />
 
 Example raports you can find in example_raports file <br />
-=======
->>>>>>> 4f9bd6167e4cf20da917cfa2d09aa7385b5266e1
