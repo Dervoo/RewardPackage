@@ -37,6 +37,10 @@ module.exports = {
             // chainId: 4,
             // env option!
         },
+        goerli: {
+          url: secret.goerli_url,
+          accounts: [secret.goerli_key]
+        }
     },
 
     solidity: {

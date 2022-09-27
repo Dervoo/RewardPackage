@@ -2,7 +2,6 @@ deployments
 .secret.json
 node_modules
 artifacts
-gas-report.txt
 coverage.json
 coverage
 .env
@@ -12,3 +11,4 @@ node_modules
 node_modules
 node_modules
 .DS_Store
+.history

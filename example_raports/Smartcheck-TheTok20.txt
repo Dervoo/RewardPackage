@@ -1,0 +1,64 @@
+Installing/Updating JRE in /home/bartosz/.jdeploy...
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated node-jre@0.2.3: discontinued
+
+added 81 packages, and audited 82 packages in 18s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+4 moderate severity vulnerabilities
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+(node:23936) Warning: Accessing non-existent property 'cat' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:23936) Warning: Accessing non-existent property 'cd' of module exports inside circular dependency
+(node:23936) Warning: Accessing non-existent property 'chmod' of module exports inside circular dependency
+(node:23936) Warning: Accessing non-existent property 'cp' of module exports inside circular dependency
+(node:23936) Warning: Accessing non-existent property 'dirs' of module exports inside circular dependency
+(node:23936) Warning: Accessing non-existent property 'pushd' of module exports inside circular dependency
+(node:23936) Warning: Accessing non-existent property 'popd' of module exports inside circular dependency
+(node:23936) Warning: Accessing non-existent property 'echo' of module exports inside circular dependency
+(node:23936) Warning: Accessing non-existent property 'tempdir' of module exports inside circular dependency
+(node:23936) Warning: Accessing non-existent property 'pwd' of module exports inside circular dependency
+(node:23936) Warning: Accessing non-existent property 'exec' of module exports inside circular dependency
+(node:23936) Warning: Accessing non-existent property 'ls' of module exports inside circular dependency
+(node:23936) Warning: Accessing non-existent property 'find' of module exports inside circular dependency
+(node:23936) Warning: Accessing non-existent property 'grep' of module exports inside circular dependency
+(node:23936) Warning: Accessing non-existent property 'head' of module exports inside circular dependency
+(node:23936) Warning: Accessing non-existent property 'ln' of module exports inside circular dependency
+(node:23936) Warning: Accessing non-existent property 'mkdir' of module exports inside circular dependency
+(node:23936) Warning: Accessing non-existent property 'rm' of module exports inside circular dependency
+(node:23936) Warning: Accessing non-existent property 'mv' of module exports inside circular dependency
+(node:23936) Warning: Accessing non-existent property 'sed' of module exports inside circular dependency
+(node:23936) Warning: Accessing non-existent property 'set' of module exports inside circular dependency
+(node:23936) Warning: Accessing non-existent property 'sort' of module exports inside circular dependency
+(node:23936) Warning: Accessing non-existent property 'tail' of module exports inside circular dependency
+(node:23936) Warning: Accessing non-existent property 'test' of module exports inside circular dependency
+(node:23936) Warning: Accessing non-existent property 'to' of module exports inside circular dependency
+(node:23936) Warning: Accessing non-existent property 'toEnd' of module exports inside circular dependency
+(node:23936) Warning: Accessing non-existent property 'touch' of module exports inside circular dependency
+(node:23936) Warning: Accessing non-existent property 'uniq' of module exports inside circular dependency
+(node:23936) Warning: Accessing non-existent property 'which' of module exports inside circular dependency
+./contracts/TheTok20.sol
+jar:file:/home/bartosz/Hardhat-Environment-Ready-3/node_modules/@smartdec/smartcheck/jdeploy-bundle/smartcheck-2.0-jar-with-dependencies.jar!/solidity-rules.xmlruleId: SOLIDITY_PRAGMAS_VERSION
+patternId: 23fc32
+severity: 1
+line: 2
+column: 16
+content: ^
+
+ruleId: SOLIDITY_VISIBILITY
+patternId: 910067
+severity: 1
+line: 10
+column: 4
+content: constructor()ERC20("TheTok","TTK"){_mint(msg.sender,10000*10**decimals());}
+
+SOLIDITY_VISIBILITY :1
+SOLIDITY_PRAGMAS_VERSION :1
