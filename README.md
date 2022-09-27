@@ -4,6 +4,8 @@ Run Slither -> npm run slither <br />
 
 Run Smartcheck -> npx smartcheck -p ./contracts <br />
 
+https://github.com/smartdec/smartcheck/tree/master/rule_descriptions <br />
+
 Verifying on Etherscan:  <br />
 
 -> Fill env/secret.json with private data <br />
