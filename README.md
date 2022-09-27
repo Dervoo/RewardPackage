@@ -16,6 +16,8 @@ Mainnet Fork: <br />
 -> Run node with fork mainnet: npx hardhat node --fork <mainnet_url> <br />
 -> Run script: node scripts/<name_of_script>.js (in new terminal, DO NOT CLOSE node) <br />
 
+![fork mainnet](https://user-images.githubusercontent.com/30512638/192516317-724248d3-c8ee-48dd-b882-a95a45292c1b.png)
+
 Gas Reporter: <br />
 
 -> Create tests for your contract functions that you are interested in <br />
@@ -26,6 +28,8 @@ Solidity Coverage: <br />
 
 -> Create tests to cover their %% amount <br />
 -> Run npm run coverage to get outputs and results <br />
+
+![coverage](https://user-images.githubusercontent.com/30512638/192516240-e8965717-7500-4915-97c5-57c8e28c0e88.png)
 
 Mythril:
 
