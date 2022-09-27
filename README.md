@@ -43,6 +43,8 @@ Solidity Visual Developer: <br />
 -> Install Solidity Visual Developer extension <br />
 -> ctrl + shift + p -> type Surya and choose option <br />
 
+![surya](https://user-images.githubusercontent.com/30512638/192532322-7516ae41-c823-4cf7-9d41-295eedc14747.png)
+
 Can be used via Remix IDE -> Sourcify, MythX <br />
 
 Solhint: (you can set parameters in solhint.json and control the contract's format and behaviour) <br />
