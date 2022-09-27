@@ -10,6 +10,8 @@ Verifying on Etherscan:  <br />
 -> Deploy contract: npx hardhat run --network <network_name> scripts/<file_name>.js <br />
 -> Verify deployed contract: npx hardhat verify --network <network_name> <contract_address> <constructor_arguments> <br />
 
+https://goerli.etherscan.io/address/0x00d8b563854d24BCD2f03164b6Fe8d5eBEb24026#code <br />
+
 Mainnet Fork: <br />
 
 -> Create script within scripts folder with functionalities <br />
@@ -51,7 +53,6 @@ Solhint: (you can set parameters in solhint.json and control the contract's form
 
 -> npx solhint 'contracts/**/*.sol' -> checks all files <br />
 -> npx solhint contracts/File_Name.sol -> checks specific file <br />
-<<<<<<< HEAD
 
 Manticore: (it takes a lot of time to produce the report) <br />
 
@@ -74,7 +75,6 @@ Octopus: <br />
 
 -> pip3 install octopus <br />
 -> WIP <br />
+https://github.com/FuzzingLabs/octopus <br />
 
 Example raports you can find in example_raports file <br />
-=======
->>>>>>> 4f9bd6167e4cf20da917cfa2d09aa7385b5266e1
