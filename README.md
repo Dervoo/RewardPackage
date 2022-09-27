@@ -74,5 +74,6 @@ Octopus: <br />
 
 -> pip3 install octopus <br />
 -> WIP <br />
+https://github.com/FuzzingLabs/octopus <br />
 
 Example raports you can find in example_raports file <br />
