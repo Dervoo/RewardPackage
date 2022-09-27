@@ -10,6 +10,8 @@ Verifying on Etherscan:  <br />
 -> Deploy contract: npx hardhat run --network <network_name> scripts/<file_name>.js <br />
 -> Verify deployed contract: npx hardhat verify --network <network_name> <contract_address> <constructor_arguments> <br />
 
+https://goerli.etherscan.io/address/0x00d8b563854d24BCD2f03164b6Fe8d5eBEb24026#code <br />
+
 Mainnet Fork: <br />
 
 -> Create script within scripts folder with functionalities <br />
