@@ -1,1 +1,0 @@
-/home/bartosz/.local/bin/manticore TheTok20.sol
