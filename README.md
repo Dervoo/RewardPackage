@@ -37,3 +37,15 @@ Mythril:
 -> myth analyze <solidity-file> (by default Mythril analyses for 24 hours, to make it faster add --execution-timeout <seconds>) <br />
 -> if you are trying to use @openzepplin library you have to create file.json with the path, the example of that is remapping.json in home directory path and then you have to run command < myth analyze contracts/<contract_name>.sol --solc-json remapping.json --execution-timeout <seconds> > <br />
 -> In the end it prints issues, if not then "No issues were detected." <br />
+
+Solidity Visual Developer: <br />
+
+-> Install Solidity Visual Developer extension <br />
+-> ctrl + shift + p -> type Surya and choose option <br />
+
+Can be used via Remix IDE -> Sourcify, MythX <br />
+
+Solhint: (you can set parameters in solhint.json and control the contract's format and behaviour) <br />
+
+-> npx solhint 'contracts/**/*.sol' -> checks all files <br />
+-> npx solhint contracts/File_Name.sol -> checks specific file <br />
