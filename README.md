@@ -43,12 +43,15 @@ Solidity Visual Developer: <br />
 -> Install Solidity Visual Developer extension <br />
 -> ctrl + shift + p -> type Surya and choose option <br />
 
+![surya](https://user-images.githubusercontent.com/30512638/192532322-7516ae41-c823-4cf7-9d41-295eedc14747.png)
+
 Can be used via Remix IDE -> Sourcify, MythX <br />
 
 Solhint: (you can set parameters in solhint.json and control the contract's format and behaviour) <br />
 
 -> npx solhint 'contracts/**/*.sol' -> checks all files <br />
 -> npx solhint contracts/File_Name.sol -> checks specific file <br />
+<<<<<<< HEAD
 
 Manticore: (it takes a lot of time to produce the report) <br />
 
@@ -73,3 +76,5 @@ Octopus: <br />
 -> WIP <br />
 
 Example raports you can find in example_raports file <br />
+=======
+>>>>>>> 4f9bd6167e4cf20da917cfa2d09aa7385b5266e1
