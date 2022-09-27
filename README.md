@@ -53,7 +53,6 @@ Solhint: (you can set parameters in solhint.json and control the contract's form
 
 -> npx solhint 'contracts/**/*.sol' -> checks all files <br />
 -> npx solhint contracts/File_Name.sol -> checks specific file <br />
-<<<<<<< HEAD
 
 Manticore: (it takes a lot of time to produce the report) <br />
 
