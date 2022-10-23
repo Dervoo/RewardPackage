@@ -80,3 +80,5 @@ Octopus: <br />
 https://github.com/FuzzingLabs/octopus <br />
 
 Example raports you can find in example_raports file <br />
+
+In addition create Forta listener on openzeppelin defender including media of your choice to get all information about suspicious behaviour. <br />
